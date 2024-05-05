@@ -4,9 +4,18 @@
 
 .background {
   background-color: #212121;
+  min-height: 100vh;
+  height: 100%;
 }
-
-.primutext {
-  color: red;
-  font-size: 27px;
+.imagini-top {
+  height: 70vh;
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: end; */
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  /* height: 100px; */
+  padding: 20px;
+  background-color: red;
 }

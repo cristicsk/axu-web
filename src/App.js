@@ -1,10 +1,18 @@
 import "./App.css";
+import Button from "./components/Button";
+import Image from "./components/Image";
 
 function App() {
   return (
     <div className="background">
-      <div className="primutext">testtest</div>
-      <div className="text-blue-500 text-6xl">testuldejos</div>
+      <div className="imagini-top">
+        <Image />
+        <Image />
+        <Image />
+        {/* <Image />
+        <Image />
+        <Image /> */}
+      </div>
     </div>
   );
 }
